@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+
+/* font-family: 'Satisfy', cursive; */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 10%;
+
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: #B91C29;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #210B04;
+    border-top: 4px solid #B91C29;
+}
+
+#botao {
+    background: #B91C29;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover {
+    border: none;
+    background: #210B04
+}
+
+.header {
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+}
+
+.headline {
+    flex: 40%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #B91C29;
+    padding: 0;
+    margin: 0;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid pink; */
+    text-align: center;
+}
+
+.headline p {
+    color: #210B04;
+    text-align: left;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #B91C29;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.contact-btn:hover {
+    background: #210B04;
+}
+
+section {
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+
+}
+
+section h2 {
+    width: 100%;
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    color: #B91C29;
+
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #B91C29;
+    border-radius: 10px;
+    color: #210B04;
+    cursor: pointer;
+}
+
+.textooculto {
+    display: none;
+}
+
+.card:hover {
+    background-color: #B91C29;
+    color: white;
+    padding: 30px;
+}
+
+.card:hover .cardtext {
+    display: none;
+}
+
+.card:hover .textooculto {
+    display: block;
+}
+
+.card:hover img {
+    background-color: white;
+}
+
+footer {
+    margin-top: 50px;
+    height: auto;
+    background-image: linear-gradient(180deg, #B91C29, #671118);
+    text-align: center;
+
+}
+
+.rodape {
+    padding: 100px;
+}
+
+.nome {
+    font-family: 'Satisfy', cursive;
+    color: white;
+}
+
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 60px;
+}
